@@ -10,9 +10,9 @@
 .btn-55 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background: transparent; /* Fondo transparente */
   background-image: none;
-  color: #fff;
+  color: #fff; /* Color del texto blanco para visibilidad */
   cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
@@ -37,10 +37,9 @@
   display: none;
 }
 .btn-55 {
-  background: linear-gradient(90deg, blue, red);
   border-radius: 999px;
   box-sizing: border-box;
-  color: #000;
+  color: #000; /* Color del texto para el botón */
   display: block;
   font-weight: 900;
   overflow: hidden;
@@ -49,9 +48,9 @@
   text-transform: uppercase;
 }
 .btn-55 span {
-  background: #1e293b;
+  background: transparent; /* Fondo transparente para el span */
   border-radius: 999px;
-  color: #fff;
+  color: #fff; /* Texto blanco para visibilidad */
   display: grid;
   inset: 5px;
   place-items: center;
@@ -59,5 +58,6 @@
   transition: background 0.3s;
 }
 .btn-55:hover span {
-  background: none;
+  background: transparent; /* Sin fondo al hacer hover */
+  color: #007BFF; /* Cambia el color del texto al hacer hover para un efecto visual */
 }
